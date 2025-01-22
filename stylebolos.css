@@ -1,0 +1,152 @@
+body {
+    background-color: pink;
+    border: 10px solid white;
+    padding: 5%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    font-size: 100px;
+    font-family: Arial;
+}
+
+.cabe img {
+    width: 150px;
+    height: 150px;
+    float: right; 
+    position: absolute;
+    top: 0; 
+    right: 0;
+    margin: 30px; 
+}
+
+.tt {
+    margin-top: 0; 
+    position: absolute; 
+    top: 30px; 
+    left: 0;
+    margin-left: 30px; 
+}
+
+.tt img {
+    width: 150px;
+    height: 150px;
+    display: block; 
+    top: 20px;
+}
+
+
+.sabores {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tabela {
+    border-collapse: collapse;
+    width: 48%; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+    background-color: #fff; 
+    margin-right: 20px;
+}
+
+.tabela th, .tabela td {
+    padding: 12px 15px;
+    border: 2px solid #f3e5f5;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #444;
+    word-wrap: break-word; 
+}
+
+.tabela th {
+    background-color: #ff80bf; 
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.tabela td {
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+.tabela td:hover {
+    background-color: #f1f1f1;
+}
+
+.tabela tr:nth-child(even) td {
+    background-color: #fafafa; 
+}
+
+.tabela tr:hover {
+    background-color: #f8bbd0; 
+}
+
+.tabelasabores {
+    border-collapse: collapse;
+    width: 48%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.tabelasabores th, .tabelasabores td {
+    padding: 12px 15px;
+    border: 2px solid #f3e5f5; 
+    text-align: center;
+    font-size: 1.1rem;
+    color: #444;
+    word-wrap: break-word;
+}
+
+.tabelasabores th {
+    background-color: #ff80bf;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+.tabelasabores td {
+    background-color: #f9f9f9; 
+    transition: background-color 0.3s ease;
+}
+
+.tabelasabores td:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.tabelasabores tr:nth-child(even) td {
+    background-color: #fafafa; 
+}
+
+.tabelasabores tr:hover {
+    background-color: #ffccff;
+}
+
+.sabores img {
+    width: 150px;
+    height: 150px;
+    float: right;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    margin: 20px;
+}
+
+button{
+    margin-top: 15px;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 55px;
+    width: 250px;
+    height: 60px;
+    border: 5px solid black;
+    float: right;
+}
